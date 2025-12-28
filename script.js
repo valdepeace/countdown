@@ -1,4 +1,5 @@
-const target = new Date('2025-12-31T23:59:59')
+// const target = new Date('2025-12-31T23:59:59')
+const target = new Date('2025-12-28T11:00:59')
 const params = new URLSearchParams(location.search)
 const forceUnlock = params.has('unlock')
 const el = {
